@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #353836;
+    --secondary-color: white;
+    --tertiary-color:#09c372;
+    --login-main-color: #498afb;
+    --signup-color:solid #ff3860;
+  }
+body{
+   background-color: var(--primary-color);
+   color: var(--tertiary-color);
+}
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calendra{
+    /* margin: 2rem; */
+    width: 90vw;
+    /* height: 90vh; */
+    /* border: 1px solid #09c372; */
+    box-sizing: border-box;
+}
+.mon-feb{
+    display: flex;
+    justify-content: center;
+}
+.mon-march{
+    display: flex;
+    justify-content: center;
+}
+.mon-april{
+    display: flex;
+    justify-content: center;
+}
+.mon-may{
+    display: flex;
+    justify-content: center;
+}
+.calendra .month {
+    display: flex;
+    justify-content: center;
+    /* margin: 1rem; */
+    padding: 1rem;
+    box-sizing: border-box;
+    /* background-color: rgba(220, 231, 220, 0.925); */
+    width: 90%;
+}
+.calendra .month th{
+    /* margin: 2rem; */
+    padding: 2rem 3rem;
+    background-color: rgba(57, 110, 57, 0.904);
+}
+ .month td{
+    /* display: block; */
+    /* padding: 20pxpx; */
+    /* background-color: aqua; */
+    padding:1rem;
+    /* box-shadow: 5px 10px #888888; */
+    opacity: .6;
+
+
+
+}
+ .month td:hover{
+opacity: 1;
+}
+.calendra .table-data { 
+    background-color: #498afb;
+    color: #ff3860;
+    font-size: large;
+}
+
+.month .td-data{
+    /* background-color: azure; */
+    padding: 2rem;
+
+}
+
