@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    border: 1px saddlebrown;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    grid: 2px;
+
+}
+.card{
+    border: 2px solid blue;
+    background-color: rgb(209, 216, 216);
+    border-radius: 10px;
+}
+#card2{
+    /* grid-column: 1 span 2; */
+    /* grid-area: ; */
+}

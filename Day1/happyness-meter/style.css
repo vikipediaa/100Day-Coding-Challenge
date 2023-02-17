@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #353836;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between ;
+    background-color: rgb(66, 65, 65);
+    padding: 1rem;
+    /* height: 2rem; */
+}
+.brand{
+    padding: 1rem;
+    color: #09c372;
+    font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav li {
+    list-style: none;
+    /* padding: 1rem; */
+    margin: 1rem ;
+    /* border: 1px #09c372; */
+    /* border: 3px solid #498afb; */
+   
+}
+nav li a
+{
+    text-decoration: none;
+    color: aliceblue;
+    /* border: 3px solid #498afb; */
+    padding: 3px;
+    
+    
+}
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.login,
+.signup {
+  border-radius: 5px ;
+  
+  padding: 5px 8px;
+}
+.login {
+    border: 3px solid #498afb;
+    border-style: dashed;
+    
+  }
+.signup {
+    border: 3px solid #ff3860;
+    border-style: dashed
+  }
+.login a {
+    color:#498afb;
+}
+.signup a {
+    color: #ff3860;
+}
+
+  #hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+  }
+  #hamburger-icon div {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  .open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+  
+  .open .bar2 {
+    opacity: 0;
+  }
+  
+  .open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+  }
+  
+  .open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+  }
+  
+  .mobile-menu li {
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header nav {
+      display: none;
+    }
+  
+    #hamburger-icon {
+      display: block;
+    }
+  }
+  .container-main{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    color: black;
+    display: grid;
+    grid-template-rows: auto auto auto ;
+    grid-template-columns: auto auto auto auto auto ;
+    justify-content: center;
+    gap: 20px 20px;
+    width: 94%;
+    /* height: auto; */
+  }
+  .box{
+    
+    background-color: white;
+  }
+  #box-1 {
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+    /* width: 95vw; */
+    /* height: 30vh; */
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 1rem;
+  }
+  #box-2
+  {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 20px;
+    /* margin: 20px; */
+    border-radius: 1rem;
+    /* height: 30vh; */
+  }
+  #box-3
+  {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    padding: 20px;
+    /* margin: 20px; */
+    border-radius: 1rem;
+    width: 30vw;;
+  }
+  #box-4
+  {
+    grid-column-start: 1;
+    grid-column-end: 4 ;
+    padding: 20px;
+    /* margin: 20px; */
+    border-radius: 1rem;
+    /* height: 30vh; */
+  }
+  #box-5
+  {
+    grid-column-start: 4;
+    grid-column-end: 4 ;
+    padding: 20px;
+    /* margin: 20px; */
+    border-radius: 1rem;
+    /* height: 30vh; */
+  }
+  .footer-container
+  {
+    background-color:  rgb(66, 65, 65);
+  }
+  .f-box {
+    
+     margin-top: 20px;
+  }
+  .f-box ul {
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  .f-box ul a{
+    color: azure;
+    text-decoration: none;
+  }
+  #box-1 img {
+    display: inline;
+    float: right;
+  }
+  p {
+    word-spacing: 5px;
+    line-height:2rem;
+  }
+  
+    h2 {	
+        padding: 1rem 0 1rem 0;
+        letter-spacing: 5px;
+    }
+    #box-2 img {
+        display: inline;
+        float: left;
+      }
+      #box-3 img {
+        display: inline;
+        float: right;
+      }
+  
