@@ -1,66 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>How Happy You Are !!</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="brand">Vasisth</div>
-        <nav>
-            <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <!-- <li class="login" id="login"><a href="\Day1\happyness-meter\login.html ">Log In </a></li>
+      <div class="brand">Vasisth</div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <!-- <li class="login" id="login"><a href="\Day1\happyness-meter\login.html ">Log In </a></li>
             <li class="signup"><a href="">Sign up</a></li> -->
         </ul>
-        </nav>
-        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-          </div>
-          <ul class="mobile-menu">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/products">Products</a></li>
-            <li><a href="/about">About</a></li>
-            <li id="login"><a href="\Day1\happyness-meter\login.html" >Login</a></li>
-            <li id="signup"><a href="/signup">Signup</a></li>
-          </ul>
-          
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <ul class="mobile-menu">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/about">About</a></li>
+        <li id="login"><a href="\Day1\happyness-meter\login.html">Login</a></li>
+        <li id="signup"><a href="/signup">Signup</a></li>
+      </ul>
     </header>
+    <div class="top-container">
+    <div class="nav">
+      <a href="#mon-feb">feb</a>
+      <a href="#mon-march">march</a>
+      <a href="#mon-ap">april</a>
+      <a href="#mon-may">may</a><a href="#mon-june">june</a>
+      <a href="#mon-july">july</a><a href="#mon-aug">aug</a>
+      <a href="#mon-sep">sept</a><a href="#mon-oct">oct</a>
+      <a href="#mon-nov">nov</a><a href="#mon-dec">dec</a>
+    </div>
     <div class="conatiner">
-        <div class="calendra">
-            <div class="mon-feb"></div>
-            <div class="mon-march"></div>
-            <div class="mon-april"></div>
-            <div class="mon-may"></div>
-        </div>
-        <!-- <div class="btn">
+      
+      <div class="calendra">
+        <div id="mon-feb" class="mon-feb"></div>
+        <div id="mon-march" class="mon-march"></div>
+        <div id="mon-ap" class="mon-april"></div>
+        <div id="mon-may" class="mon-may"></div>
+        <div id="mon-june" class="mon-june"></div>
+        <div id="mon-july" class="mon-july"></div>
+        <div id="mon-aug" class="mon-aug"></div>
+        <div id="mon-sep" class="mon-sep"></div>
+        <div id="mon-oct" class="mon-oct"></div>
+        <div id="mon-nov" class="mon-nov"></div>
+        <div id="mon-dec" class="mon-dec"></div>
+      </div>
+      <!-- <div class="btn">
             <button>prev</button>
             <button>next</button>
         </div> -->
     </div>
+  </div>
     <footer>
-        <div class="footer-container">
-            <div class="f-box" id="f-box1">
-               <ul>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Account</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Help Centre</a></li>
-               </ul> 
-            </div>
-             <div class="f-box" id="f-box2"></div>
-            <div class="f-box" id="f-box3"></div>
-            <div class="f-box" id="f-box4"></div> 
+      <div class="footer-container">
+        <div class="f-box" id="f-box1">
+          <ul>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Help Centre</a></li>
+          </ul>
         </div>
+        <div class="f-box" id="f-box2"></div>
+        <div class="f-box" id="f-box3"></div>
+        <div class="f-box" id="f-box4"></div>
+      </div>
     </footer>
     <script src="main.js" type="text/javascript"></script>
-</body>
+  </body>
 </html>
