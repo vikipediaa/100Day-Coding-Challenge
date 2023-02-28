@@ -8,77 +8,248 @@
     --secondary-color: white;
     --tertiary-color:#09c372;
     --login-main-color: #498afb;
-    --signup-color:solid #ff3860;
+    --signup-color:solid #c4193b;
   }
 body{
    background-color: var(--primary-color);
    color: var(--tertiary-color);
 }
-.conatiner{
+header{
+    /* position: fixed; */
+    /* width: 100vw; */
+}
+.top-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-image:url(pink-cloud.jpg);
+    position: relative;
+    background-repeat:initial;
+    /* border: 5px solid #c4193b; */
+
+}
+
+.nav{
+    /* border:solid #09c372; */
+    /* width: 50vw;  */
+    height: 2rem;
+    /* display: block;  */
+    /* flex-direction: column; */
+    position: sticky;
+    top: 1vh;
+  /* right: 0; */
+  /* left: 30vw;; */
+  /* color: white; */
+  /* transition: step-end; */
+  /* background-image: url(feb.jpg); */
+}
+.nav a{
+    color: azure;
+    text-decoration: none;
+}
+.calendra{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.calendra{
+    justify-content: center;
     /* margin: 2rem; */
-    width: 90vw;
+    /* border: solid #09c372; */
+    width: 63vw;
     /* height: 90vh; */
     /* border: 1px solid #09c372; */
     box-sizing: border-box;
+    /* justify-content: center; */
+    /* background-image:url(cloud.jpg); */
+    /* border: 5px solid #c4193b; */
+    
 }
 .mon-feb{
     display: flex;
     justify-content: center;
+    /* background-color:rgba(255, 0, 0, 0.158) ; */
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+    /* box-shadow: 10px 10px 30px rgba(245, 63, 63, 0.459)  inset; */
+ 
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    /* padding: 1rem; */
+    opacity: .9;
+   
+}
+.mon-feb:hover ,.mon-march:hover, .mon-may:hover{
+    opacity: 1;
 }
 .mon-march{
     display: flex;
     justify-content: center;
+    
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    /* background-color:rgba(248, 15, 15, 0.281) ; */
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+    opacity: .9;
 }
 .mon-april{
     display: flex;
     justify-content: center;
+    /* background-image: url(march.jpg),url(feb.jpg) ; */
+ 
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    /* background-color:rgba(248, 233, 16, 0.397) ;
+     */
+     box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
 }
 .mon-may{
     display: flex;
     justify-content: center;
+   
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    /* background-color:rgba(230, 100, 117, 0.281) ; */
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
 }
+.mon-june{
+    display: flex;
+    justify-content: center;  
+   
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    /* background-color:rgba(218, 36, 241, 0.281) ; */
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+}
+.mon-july{
+    display: flex;
+    justify-content: center;
+  
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    /* background-color:rgba(255, 239, 239, 0.281) ; */
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+}
+.mon-aug{
+    display: flex;
+    justify-content: center;
+ 
+    margin-bottom: 1rem;
+ 
+    /* background-color:rgba(255, 239, 239, 0.281) ; */
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+       border-radius: .2rem;
+}
+.mon-sep{
+    display: flex;
+    justify-content: center;
+  
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+}
+.mon-oct{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+    /* background-image: url("img_tree.gif"); */
+}
+.mon-nov{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+}
+.mon-dec{
+    display: flex;
+    justify-content: center;
+     /* background-image: url(march.jpg),url(feb.jpg) ; */
+    
+    margin-bottom: 1rem;
+    border-radius: .2rem;
+    box-shadow: 10px 10px 30px rgba(168, 13, 13, 0.459)  ;
+}
+
 .calendra .month {
     display: flex;
     justify-content: center;
     /* margin: 1rem; */
-    padding: 1rem;
+    padding: 6rem 6rem .3rem;
     box-sizing: border-box;
-    /* background-color: rgba(220, 231, 220, 0.925); */
+align-items: center;
+    /* background-color: rgba(220, 231, 220, 0.5); */
+    /* background-image: url(feb.jpg); */
     width: 90%;
+    /* opacity: .8; */
+}
+.calendra .month :hover{
+    opacity: 1;
 }
 .calendra .month th{
     /* margin: 2rem; */
-    padding: 2rem 3rem;
-    background-color: rgba(57, 110, 57, 0.904);
+    padding: 2rem 2rem;
+    background-color: #685d5d;
+    border-radius: 1rem;
+     /* box-shadow: 5px 2px 5px  #a09f9f inset; */
 }
  .month td{
     /* display: block; */
     /* padding: 20pxpx; */
-    /* background-color: aqua; */
+    /* background-color: rgb(169, 194, 194); */
     padding:1rem;
-    /* box-shadow: 5px 10px #888888; */
-    opacity: .6;
+    opacity: .8;
 
 
 
 }
  .month td:hover{
 opacity: 1;
+/* color: #09c372; */
+background-color: #498afb67;
+transition: 2s;
 }
-.calendra .table-data { 
-    background-color: #498afb;
-    color: #ff3860;
-    font-size: large;
-}
+
 
 .month .td-data{
     /* background-color: azure; */
-    padding: 2rem;
+    padding: 1.5rem 1rem;
+    /* margin: 2rem; */
+    /* border: 1px solid palegreen; */
+    /* box-shadow: 2px 2px 5px 2px #888888 inset; */
+    border-radius: 10rem;
+    text-align: center;
+    color:  rgb(14, 12, 12);
 
+}
+.footer-container{
+    margin-top: 0px;
+}
+.EWiIt{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    height: 85vh;
+    /* border: solid green; */
+    
+}
+.s6WFP{
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    top: 0;
+    bottom: 0;
+    height: 85vh;
+    /* border: solid green; */
+}
+.s6WFP a{
+    color: antiquewhite;
+}
+svg{
+    color: azure;
 }
 
