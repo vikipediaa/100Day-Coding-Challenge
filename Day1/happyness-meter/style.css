@@ -9,10 +9,11 @@
   --tertiary-color:#09c372;
   --login-main-color: #498afb;
   --signup-color:solid #ff3860;
+  --shadow: 0 1rem 2rem hsla(0,0%,70.6%,0.2)
 }
 body{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     font-family: "Poppins", sans-serif;
 }
 header{
@@ -141,7 +142,7 @@ ul li:hover {
     justify-content: center;
   }
   .container{
-    color: black;
+    /* color: black; */
     display: grid;
     grid-template-rows: auto auto auto ;
     grid-template-columns: auto auto auto auto auto ;
@@ -152,9 +153,13 @@ ul li:hover {
     /* height: auto; */
   }
   .box{
-    color:white;
-    background-color:var(--primary-color);
-    box-shadow: 2px 2px 5px  #919090;
+    color:var(--primary-color);
+    /* background-color:var(--primary-color); */
+    box-shadow: 1px 1px 5px  #e0d3d3;
+    border: 2px;
+  }
+  .box :hover{
+    border: solid #498afb;
   }
   #box-1 {
 
